@@ -7,7 +7,7 @@ const date = new Date();
 
 const month = date.getMonth();
 
-monthEl.innerHTML = date.toLocaleDateString("en", {
+monthEl.innerHTML = "PHORN PHEKDEY | " + date.toLocaleDateString("en", {
   month: "long",
 });
 
